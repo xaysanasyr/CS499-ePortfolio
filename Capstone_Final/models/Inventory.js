@@ -11,7 +11,6 @@ const InventorySchema = new mongoose.Schema(
   },
   {
     // Keep the collection name explicit so helpers/services can reference it safely.
-    // IMPORTANT: Must match whatever Inventory.reserve/release expect.
     collection: 'inventories'
   }
 );
