@@ -1,7 +1,6 @@
 const Inventory = require('../models/Inventory');
 
 // Ensure we have exactly one inventory row before the app starts taking bookings.
-// If nothing exists, seed defaults (30/30). In real life, read these from config.
 async function ensureInventory() {
   const existing = await Inventory.findOne();
   if (!existing) await Inventory.create({ dogSpaces: 30, catSpaces: 30 });
