@@ -1,0 +1,20 @@
+{
+  "name": "snhucapstonefinal",
+  "version": "1.0.0",
+  "description": "Console-only PetCheckIn app",
+  "main": "cli/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start:cli": "node cli/main.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "mongoose": "^8.19.2",
+    "dotenv": "^16.4.5",
+    "chalk": "^4.1.2",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
