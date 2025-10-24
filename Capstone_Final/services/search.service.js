@@ -7,8 +7,7 @@ async function findPetByNameBinary(target) {
   const names = (await Pet.find({}, { name: 1, _id: 0 }).lean())
     .map(x => x.name)
     // Sort required for binary search correctness.
-    // Default JS sort is lexicographic; good enough for simple ASCII names.
-    // If you want locale/case-insensitive sorting, see notes below.
+    // Default JS sort is lexicographic; good enough for simple ASCII names
     .sort();
 
   // Run the binary search over the sorted names.
