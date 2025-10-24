@@ -3,21 +3,21 @@ const mongoose = require('mongoose');
 const CustomerSchema = new mongoose.Schema(
   {
     // ---- identity ----
-    // Name is the only hard requirement. We trim to avoid " John  " issues.
+    // Name is the only hard requirement.
     name: {
       type: String,
       required: [true, 'customer name required'],
       trim: true,
     },
 
-    // ---- contact (optional) ----
-    // Phone: optional for quick check-ins; we can enforce patterns in routes/services later.
+    // ---- contact  ----
+    // Phone:
     phone: {
       type: String,
       trim: true,
     },
 
-    // Email: optional. Store lowercase so lookups are consistent 
+    // Email: Store lowercase so lookups are consistent 
     email: {
       type: String,
       trim: true,
@@ -31,7 +31,7 @@ const CustomerSchema = new mongoose.Schema(
 );
 
 // ---- indexes ----
-// Name: general find-by-name searches and typeahead.
+// Name: 
 CustomerSchema.index({ name: 1 });
 
 // Phone/email: mark sparse so MongoDB only indexes docs that have the field present.
