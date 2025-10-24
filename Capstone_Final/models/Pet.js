@@ -2,14 +2,14 @@ const mongoose = require('mongoose');
 
 // tiny helpers so my checks read easy
 function isWholeNumber(n) {
-  // age can be 0 for a kitten/puppy; integers only (no 1.5 years)
+  // age can be 0 for a kitten/puppy; integers only
   return Number.isInteger(n) && n >= 0;
 }
 
 const PetSchema = new mongoose.Schema(
   {
     // ---- species/type ----
-    // We only allow 'dog' or 'cat' because capacity rules depend on this.
+    // We only allow 'dog' or 'cat'.
     // lowercase+trim keeps data consistent regardless of user input style.
     type: {
       type: String,
@@ -29,7 +29,6 @@ const PetSchema = new mongoose.Schema(
 
     // ---- attributes ----
     // Age stored as whole number years for simplicity.
-    // (If we ever need months, we can add a separate months field later.)
     age: {
       type: Number,
       required: [true, 'age required'],
@@ -41,7 +40,6 @@ const PetSchema = new mongoose.Schema(
 
     // ---- ownership ----
     // Link to owner (Customer) is optional at creation time.
-    // We can attach it later after quick check-in to avoid slowing down the desk.
     ownerId: {
       type: mongoose.Schema.Types.ObjectId,
       ref: 'Customer',
