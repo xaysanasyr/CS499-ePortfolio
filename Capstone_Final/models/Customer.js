@@ -17,7 +17,7 @@ const CustomerSchema = new mongoose.Schema(
       trim: true,
     },
 
-    // Email: optional. Store lowercase so lookups are consistent (e.g., ACME@X.COM == acme@x.com).
+    // Email: optional. Store lowercase so lookups are consistent 
     email: {
       type: String,
       trim: true,
