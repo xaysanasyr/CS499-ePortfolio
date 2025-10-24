@@ -9,11 +9,11 @@ This ePortfolio shows my CS-499 Capstone work. It includes a professional self-a
 - **Algorithms and Data Structures:** I added queues, stacks, hash maps, and binary search to improve fairness, speed, and control.
 - **Databases:** I connected to MongoDB, enforced schema rules, added light indexing, and used an atomic capacity update to prevent double booking.
 
+
 Together, these artifacts show that I can move a simple idea into a maintainable, testable, and safer system. They set the stage for the rest of the portfolio by showing the range of my skills, from design and algorithms to persistence and security.
 
 ## Quick links
 - **Professional Self-Assessment (aligned to outcomes):** `docs/Professional_Self_Assessment_RX_Aligned.docx`
-- **Code review video:** _link_
 - **Algorithms notes:** `docs/ADS_Notes.md`
 - **Security notes:** `docs/Security_Notes.md`
 - **App (CLI):** `Capstone_Final/`
@@ -31,15 +31,14 @@ Together, these artifacts show that I can move a simple idea into a maintainable
 - Node 20+ (or current LTS)
 - MongoDB 7+ (local or a cloud connection string)
 
-### Setup (Windows, macOS, Linux)
-```bash
-cp Capstone_Final/.env.example Capstone_Final/.env
-# Edit .env and set:
-# MONGODB_URI=mongodb://localhost:27017/petcheckin   # or your Atlas URI
+## How to run on macOS / Linux
+1. Install Node 20+ (or current LTS) and MongoDB 7+.
+2. Copy `.env.example` to `.env` in `Capstone_Final/` and set `MONGODB_URI=...`.
+3. In `Capstone_Final/` run:
+   ```bash
+   npm install
+   npm run start:cli
 
-cd Capstone_Final
-npm install
-npm run start:cli
 
 This self-assessment shows how my coursework and ePortfolio strengthened my skills, clarified my values, and made me more employable in computer science. I first planned a web app version of PetCheckIn but chose a command line interface to focus on core logic, data structures, and database rules within the course timeline. It gives a quick overview of my abilities with clear examples from school and work.
 I collaborate by keeping work small, visible, and easy to hand off. I use Git branches, clear commits, and short status updates. For PetCheckIn, I split work into models, routes, and tests so tasks could move in parallel. My communication is short and focused on decisions: what changed, why, and what is next. In milestones and journals, I listed status, risks, and next steps in plain language. At work, I do the same for inspection readiness, downtime, and recovery plans, using simple visuals and avoiding jargon.
