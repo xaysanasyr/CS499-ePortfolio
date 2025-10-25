@@ -50,6 +50,8 @@ Together, these artifacts show that I can move a simple idea into a maintainable
 ![Bookings collection](Screenshots/Booking.jpg)  
 *MongoDB Compass: bookings collection with daysStay, amountDue, status, and timestamps.*
 
+# Self-Assessment
+
 This self-assessment shows how my coursework and ePortfolio strengthened my skills, clarified my values, and made me more employable in computer science. I first planned a web app version of PetCheckIn but chose a command line interface to focus on core logic, data structures, and database rules within the course timeline. It gives a quick overview of my abilities with clear examples from school and work.
 I collaborate by keeping work small, visible, and easy to hand off. I use Git branches, clear commits, and short status updates. For PetCheckIn, I split work into models, routes, and tests so tasks could move in parallel. My communication is short and focused on decisions: what changed, why, and what is next. In milestones and journals, I listed status, risks, and next steps in plain language. At work, I do the same for inspection readiness, downtime, and recovery plans, using simple visuals and avoiding jargon.
 
