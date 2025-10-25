@@ -12,11 +12,6 @@ This ePortfolio shows my CS-499 Capstone work. It includes a professional self-a
 
 Together, these artifacts show that I can move a simple idea into a maintainable, testable, and safer system. They set the stage for the rest of the portfolio by showing the range of my skills, from design and algorithms to persistence and security.
 
-## Quick links
-- **Professional Self-Assessment:** `docs/Professional_Self_Assessment_RX_Aligned.docx`
-- **Screenshots:** `Screenshots/`
-- **App (CLI):** `Capstone_Final/`
-
 ## Run instructions
 
 ### Requirements
