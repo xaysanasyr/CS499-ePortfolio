@@ -17,13 +17,6 @@ Together, these artifacts show that I can move a simple idea into a maintainable
 - **Screenshots:** `Screenshots/`
 - **App (CLI):** `Capstone_Final/`
 
-## Rubric map (evidence at a glance)
-1. **Collaboration:** Git branches, clear commits, short status; task split by models/routes/tests; handoff notes in `docs/`.
-2. **Communication:** Self-assessment doc, this README, and a short code-review video (end-to-end flow).
-3. **Algorithms & trade-offs:** Queues (fair order), stacks (undo), hash maps (O(1) lookups), binary search (fast find) with 1-line complexity in `docs/ADS_Notes.md`.
-4. **Techniques & tools:** Node/Express, MongoDB schemas and indexes, atomic capacity update, `.env` config; steps below.
-5. **Security mindset:** Least-privilege DB user, input validation, env secrets, atomic write to prevent double booking; details in `docs/Security_Notes.md`.
-
 ## Run instructions
 
 ### Requirements
