@@ -38,17 +38,17 @@ Together, these artifacts show that I can move a simple idea into a maintainable
    npm install
    npm run start:cli```
 
-##Screenshots
+## Screenshots
 ### Console App Runs
-![CLI booking demo](Screenshots/Booking.jpeg)  
+![CLI booking demo](Screenshots/Booking.jpg)  
 *Booking created after capacity check; shows booking ID and bill summary.*
 
 ### Software Engineering and Design
-![Project structure](Screenshots/structure.jpeg)  
+![Project structure](Screenshots/structure.jpg)  
 *Project layout showing `cli/`, `models/`, and `services/`.*
 
 ### Algorithms and Data Structures
-![Binary search result](Screenshots/Binarysearch.jpeg)  
+![Binary search result](Screenshots/Binarysearch.jpg)  
 *Binary search result for pet name: found index and list size.*
 
 ### Databases
