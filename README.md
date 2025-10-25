@@ -29,7 +29,9 @@ Together, these artifacts show that I can move a simple idea into a maintainable
 3. In `Capstone_Final/` run:
    ```bash
    npm install
-   npm run start:cli```
+   npm run start:cli
+   
+## Original Artifact
 
 ## Screenshots
 ### Console App Runs
