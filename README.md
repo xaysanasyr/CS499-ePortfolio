@@ -40,19 +40,19 @@ Together, these artifacts show that I can move a simple idea into a maintainable
 
 ##Screenshots
 ### Console App Runs
-![CLI booking demo](docs/screenshots/db-booking-created.png)  
+![CLI booking demo](Screenshots/Booking.jpeg)  
 *Booking created after capacity check; shows booking ID and bill summary.*
 
 ### Software Engineering and Design
-![Project structure](docs/screenshots/structure-project-tree.png)  
+![Project structure](Screenshots/structure.jpeg)  
 *Project layout showing `cli/`, `models/`, and `services/`.*
 
 ### Algorithms and Data Structures
-![Binary search result](docs/screenshots/cli-binary-search-result.png)  
+![Binary search result](Screenshots/Binarysearch.jpeg)  
 *Binary search result for pet name: found index and list size.*
 
 ### Databases
-![Bookings collection](docs/screenshots/db-bookings-collection.png)  
+![Bookings collection](Screenshots/Booking.jpeg)  
 *MongoDB Compass: bookings collection with daysStay, amountDue, status, and timestamps.*
 
 This self-assessment shows how my coursework and ePortfolio strengthened my skills, clarified my values, and made me more employable in computer science. I first planned a web app version of PetCheckIn but chose a command line interface to focus on core logic, data structures, and database rules within the course timeline. It gives a quick overview of my abilities with clear examples from school and work.
