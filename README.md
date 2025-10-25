@@ -37,8 +37,26 @@ Together, these artifacts show that I can move a simple idea into a maintainable
 3. In `Capstone_Final/` run:
    ```bash
    npm install
-   npm run start:cli
+   npm run start:cli```
 
+##Screenshots
+### Console App Runs
+![CLI booking demo](docs/screenshots/db-booking-created.png)  
+*Booking created after capacity check; shows booking ID and bill summary.*
+
+### Software Engineering and Design
+![Project structure](docs/screenshots/structure-project-tree.png)  
+*Project layout showing `cli/`, `models/`, and `services/`.*
+
+### Algorithms and Data Structures
+![Binary search result](docs/screenshots/cli-binary-search-result.png)  
+*Binary search result for pet name: found index and list size.*
+
+### Databases
+![Bookings collection](docs/screenshots/db-bookings-collection.png)  
+*MongoDB Compass: bookings collection with daysStay, amountDue, status, and timestamps.*
+![Daily revenue + inventory](docs/screenshots/db-revenue-and-inventory.png)  
+*Database operations: daily revenue aggregation and current inventory (dog/cat spaces).*
 
 This self-assessment shows how my coursework and ePortfolio strengthened my skills, clarified my values, and made me more employable in computer science. I first planned a web app version of PetCheckIn but chose a command line interface to focus on core logic, data structures, and database rules within the course timeline. It gives a quick overview of my abilities with clear examples from school and work.
 I collaborate by keeping work small, visible, and easy to hand off. I use Git branches, clear commits, and short status updates. For PetCheckIn, I split work into models, routes, and tests so tasks could move in parallel. My communication is short and focused on decisions: what changed, why, and what is next. In milestones and journals, I listed status, risks, and next steps in plain language. At work, I do the same for inspection readiness, downtime, and recovery plans, using simple visuals and avoiding jargon.
