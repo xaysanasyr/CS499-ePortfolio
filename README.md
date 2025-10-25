@@ -14,8 +14,7 @@ Together, these artifacts show that I can move a simple idea into a maintainable
 
 ## Quick links
 - **Professional Self-Assessment (aligned to outcomes):** `docs/Professional_Self_Assessment_RX_Aligned.docx`
-- **Algorithms notes:** `docs/ADS_Notes.md`
-- **Security notes:** `docs/Security_Notes.md`
+- **Screenshots:** `Screenshots/`
 - **App (CLI):** `Capstone_Final/`
 
 ## Rubric map (evidence at a glance)
