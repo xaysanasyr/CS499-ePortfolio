@@ -1,6 +1,6 @@
 # CS499 ePortfolio – Pet Check-In
 
-** Rikki Xaysanasy**
+Rikki Xaysanasy
 
 B.S. Computer Science (Information Security), expected December 2025
 
