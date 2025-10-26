@@ -1,6 +1,6 @@
 # CS499 ePortfolio – Pet Check-In
 
-Rikki Xaysanasy
+**Rikki Xaysanasy**
 
 B.S. Computer Science (Information Security), expected December 2025
 
@@ -11,12 +11,11 @@ Email: rikki.xaysanasy@snhu.edu
 This ePortfolio shows my CS-499 Capstone work. It includes a professional self-assessment, three connected technical artifacts (Software Engineering and Design, Algorithms and Data Structures, and Databases), and short notes on algorithms and security.
 
 ### How the artifacts fit together
-- **Software Engineering and Design:** I refactored the original console idea into clear models with consistent naming and responsibilities.
-- **Algorithms and Data Structures:** I added queues, stacks, hash maps, and binary search to improve fairness, speed, and control.
+- **Software Engineering and Design:**  I refactored the original console idea into clear models with consistent naming and responsibilities.
+- **Algorithms and Data Structures:** I used queues, stacks, and binary search to improve fairness, speed, and control.
 - **Databases:** I connected to MongoDB, enforced schema rules, added light indexing, and used an atomic capacity update to prevent double booking.
 
-
-Together, these artifacts show that I can move a simple idea into a maintainable, testable, and safer system. They set the stage for the rest of the portfolio by showing the range of my skills, from design and algorithms to persistence and security.
+Together, these artifacts show that I can move a simple idea into a maintainable, testable, and safer system. They set the stage for the rest of the portfolio by showing the range of my skills, from design and algorithms to persistence and security. Building the ePortfolio pushed me to clean my designs, explain my choices, and plan for real world risks. It also helped me connect my classroom work to my career goals in security and systems. I now have a clear story for employers: I deliver simple, reliable, well documented solutions that teams can trust and extend.
 
 ## Run instructions
 
@@ -80,6 +79,5 @@ I moved from a basic console sketch to a cleaner web style structure. I defined 
 ###### Outcome 5: 
 I design with security in mind from the start. From my CS-465 full stack development course, I learned to keep secrets in environment variables, restrict database permissions to the minimum, and validate inputs before writes. I plan for failure modes such as race conditions, stale reads, and double booking. I prefer patterns that make risky actions atomic and logged. From my INFOSEC work, I focus on privacy, minimal data collection, and clear audit trails. As I grow, I am adding basic threat modeling and system hardening so I can spot and reduce risks earlier.
 
-Building the ePortfolio pushed me to clean my designs, explain my choices, and plan for real world risks. It also helped me connect my classroom work to my career goals in security and systems. I now have a clear story for employers: I deliver simple, reliable, well documented solutions that teams can trust and extend.
 
 
