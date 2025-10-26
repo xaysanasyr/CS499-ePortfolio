@@ -23,13 +23,15 @@ Together, these artifacts show that I can move a simple idea into a maintainable
 - Node 20+ (or current LTS)
 - MongoDB 7+ (local or a cloud connection string)
 
-## How to run on macOS / Linux
+## How to run on macOS / Linux / Windows
 1. Install Node 20+ (or current LTS) and MongoDB 7+.
 2. Copy `.env.example` to `.env` in `Capstone_Final/` and set `MONGODB_URI=...`.
-3. In `Capstone_Final/` run:
-   ```bash
+3. Run:
+   ```terminal
+   cd Capstone_Final
    npm install
    npm run start:cli
+
    
 ## Original Artifact
 ![Original Artifact](https://github.com/xaysanasyr/CS499-ePortfolio/blob/main/PetCheckIn%20(1).java)
