@@ -8,7 +8,7 @@ Email: rikki.xaysanasy@snhu.edu
 
 ## Start here
 
-This ePortfolio shows my CS-499 Capstone work. It includes a professional self-assessment, three connected technical artifacts (Software Engineering and Design, Algorithms and Data Structures, and Databases), and short notes on algorithms and security.
+This ePortfolio shows my CS-499 Capstone work. It includes a professional self-assessment, three connected technical artifacts (Software Engineering and Design, Algorithms and Data Structures, and Databases).
 
 ### How the artifacts fit together
 - **Software Engineering and Design:**  I refactored the original console idea into clear models with consistent naming and responsibilities.
