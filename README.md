@@ -40,6 +40,7 @@ My original artifact, PetCheckIn(1).java, was written when I first learned Java 
 
 
 ## Screenshots
+**From [Capstone_Final](https://github.com/xaysanasyr/CS499-ePortfolio/tree/main/Capstone_Final)
 ### Console App Runs
 ![CLI booking demo](Screenshots/Booking.jpg)  
 *Booking created after capacity check; shows booking ID and bill summary.*
