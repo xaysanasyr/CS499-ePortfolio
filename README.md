@@ -27,6 +27,10 @@ Together, these artifacts show that I can move a simple idea into a maintainable
    npm run start:cli
    
 ## Original Artifact
+![Original Artifact](main/PetCheckIn(1).java)
+
+My original artifact, PetCheckIn.java, is a simple class that stores pet info and space counts using public fields, has a constructor with getters and setters, and imports a Scanner, but the main method is empty so nothing runs. It mixes console input into setters, compares strings with == instead of .equals, has a “cat” branch that assigns “dog,” and uses local variables that never update the fields. nextInt() leaves a newline that breaks the next nextLine(). There is no validation or range checking, space counts are magic numbers, the Scanner is never closed, and the class blends UI with the data model. My plan is to make fields private, use getters and setters that validate, replace magic values with constants, and use an enum or named constants for pet type. Setters will accept values, normalize and validate them, then assign to this.*, while all console I/O moves to main or a small helper so the class is easy to test. I will add checks for name, age, type, spaces, and days, add computeAmountDue(dailyRate) to tie the bill to days, include toString() for display, and create a small main demo that prompts safely, calls setters, computes the amount, prints a summary, and closes the Scanner.
+
 
 ## Screenshots
 ### Console App Runs
