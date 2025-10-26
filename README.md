@@ -1,7 +1,9 @@
 # CS499 ePortfolio – Pet Check-In
 
 ** Rikki Xaysanasy**
+
 B.S. Computer Science (Information Security), expected December 2025
+
 Email: rikki.xaysanasy@snhu.edu
 
 ## Start here
