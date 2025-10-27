@@ -54,7 +54,7 @@ My original artifact, PetCheckIn(1).java, was written when I first learned Java 
 *Binary search result for pet name: found index and list size.*
 
 ### Databases
-![Bookings collection](Screenshots/Booking.jpg)  
+![Bookings collection](Screenshots/mongobooking.jpg)  
 *MongoDB Compass: bookings collection with daysStay, amountDue, status, and timestamps.*
 
 # Self-Assessment
